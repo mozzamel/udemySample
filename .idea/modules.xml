@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spectrum/Spectrum.iml" filepath="$PROJECT_DIR$/Spectrum/Spectrum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/letsKodeIt/letsKodeIt.iml" filepath="$PROJECT_DIR$/letsKodeIt/letsKodeIt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/udemyAutomation.iml" filepath="$PROJECT_DIR$/udemyAutomation.iml" />
+    </modules>
+  </component>
+</project>

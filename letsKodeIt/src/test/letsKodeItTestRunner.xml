@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="letsKodeIt" parallel="tests">
+
+    <test name="letsKodeItfeatures">
+
+        <parameter name="useCloudEnv" value="false"/>
+        <parameter name="cloudEnvName" value="browserstack"/>
+        <parameter name="os" value="win"/>
+        <parameter name="os_version" value="Sierra"/>
+        <parameter name="browser_name" value="chrome"/>
+        <parameter name="browser_version" value="53.0"/>
+        <parameter name="url" value="https://letskodeit.com"/>
+        <classes>
+            <class name="testPageObject.TestSignUp"/>
+            <class name="testPageObject.TestEnroll"/>
+        </classes>
+    </test>
+
+</suite>
